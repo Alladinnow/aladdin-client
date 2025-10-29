@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <nav className="navbar">
         <div className="container cluster" style={{ justifyContent: 'space-between' }}>
           <div className="cluster">
-            <Image src="/icon.svg" alt="AladdinNow Logo" width={120} height={40} style={{ height: '40px', width: 'auto' }} />
+            <Image src="/icon.svg" alt="Airavat Logo" width={120} height={40} style={{ height: '40px', width: 'auto' }} />
             <div className="input-group" style={{ width: '400px', maxWidth: '100%' }}>
               <input 
                 type="search" 
@@ -18,8 +19,12 @@ export default function Home() {
             </div>
           </div>
           <div className="cluster gap-4">
-            <button className="btn btn-ghost" style={{ color: 'white' }}>Sign In</button>
-            <button className="btn btn-primary">Get Started</button>
+            <Link href="/signin">
+              <button className="btn btn-ghost" style={{ color: 'white' }}>Sign In</button>
+            </Link>
+            <Link href="/signup">
+              <button className="btn btn-primary">Get Started</button>
+            </Link>
           </div>
         </div>
       </nav>
@@ -45,7 +50,7 @@ export default function Home() {
             <div className="stack">
               <h1 className="h1" style={{ color: 'white' }}>Connect with Global Suppliers</h1>
               <p className="text-lg" style={{ color: 'rgba(255, 255, 255, 0.9)', maxWidth: '500px' }}>
-                Source quality products, negotiate better prices, and grow your business with AladdinNow B2B marketplace.
+                Source quality products, negotiate better prices, and grow your business with Airavat B2B marketplace.
               </p>
               <div className="cluster mt-6">
                 <button className="btn btn-primary btn-lg">Start Sourcing</button>
@@ -147,7 +152,7 @@ export default function Home() {
           <div className="text-center stack">
             <h2 className="h2" style={{ color: 'white' }}>Ready to Start Sourcing?</h2>
             <p className="text-lg" style={{ color: 'rgba(255, 255, 255, 0.9)', maxWidth: '600px', margin: '0 auto' }}>
-              Join thousands of businesses already sourcing with AladdinNow
+              Join thousands of businesses already sourcing with Airavat
             </p>
             <div className="cluster mt-6" style={{ justifyContent: 'center' }}>
               <button className="btn btn-primary btn-lg">Create Free Account</button>
@@ -164,7 +169,7 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-4 mb-8">
             <div>
-              <h4 className="h5 mb-4">About AladdinNow</h4>
+              <h4 className="h5 mb-4">About Airavat</h4>
               <p className="text-sm text-muted">Your trusted B2B marketplace connecting buyers and suppliers worldwide.</p>
             </div>
             <div>
@@ -197,7 +202,7 @@ export default function Home() {
           </div>
           <div className="divider"></div>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 'var(--space-4)', paddingTop: 'var(--space-4)' }}>
-            <p className="text-sm text-muted">© 2025 AladdinNow. All rights reserved.</p>
+            <p className="text-sm text-muted">© 2025 Airavat. All rights reserved.</p>
             <div className="cluster">
               <a href="#" className="text-sm">Privacy Policy</a>
               <a href="#" className="text-sm">Terms of Service</a>

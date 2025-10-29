@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AladdinNow - Global B2B Marketplace",
-  description: "Connect with verified suppliers worldwide. Source quality products, negotiate prices, and grow your business with AladdinNow B2B marketplace.",
+  title: "Airavat - Global B2B Marketplace",
+  description: "Connect with verified suppliers worldwide. Source quality products, negotiate prices, and grow your business with Airavat B2B marketplace.",
   keywords: ["B2B marketplace", "wholesale", "suppliers", "manufacturers", "bulk orders", "trade"],
 };
 
