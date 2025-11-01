@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <div className="cluster gap-4">
             <Link href="/signin">
-              <button className="btn btn-ghost" style={{ color: 'white' }}>Sign In</button>
+              <button className="btn btn-ghost">Sign In</button>
             </Link>
             <Link href="/signup">
               <button className="btn btn-primary">Get Started</button>
@@ -54,13 +54,13 @@ export default function Home() {
               </p>
               <div className="cluster mt-6">
                 <button className="btn btn-primary btn-lg">Start Sourcing</button>
-                <button className="btn btn-outline btn-lg" style={{ borderColor: 'white', color: 'white' }}>
+                <button className="btn btn-outline btn-lg">
                   Learn More
                 </button>
               </div>
             </div>
-            <div className="center" style={{ minHeight: '300px', background: 'rgba(255, 255, 255, 0.1)', borderRadius: 'var(--radius-lg)' }}>
-              <p style={{ color: 'rgba(255, 255, 255, 0.7)' }}>Hero Image Placeholder</p>
+            <div className="center" style={{ minHeight: '300px', borderRadius: 'var(--radius-lg)' }}>
+               <img src={'./hero-image-placeholder.svg'} alt="Hero Image" height={'300px'} />
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@ export default function Home() {
             </p>
             <div className="cluster mt-6" style={{ justifyContent: 'center' }}>
               <button className="btn btn-primary btn-lg">Create Free Account</button>
-              <button className="btn btn-outline btn-lg" style={{ borderColor: 'white', color: 'white' }}>
+              <button className="btn btn-outline btn-lg" >
                 Contact Sales
               </button>
             </div>

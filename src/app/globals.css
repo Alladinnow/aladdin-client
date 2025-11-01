@@ -365,20 +365,24 @@ a:focus-visible {
 
 .btn-outline {
   background: transparent;
-  color: var(--color-primary);
-  border-color: var(--color-primary);
+  color: var(--color-primary-50);
+  border-color: var(--color-bg);
 }
 .btn-outline:hover { 
+  color: var(--color-primary);
   background: var(--color-primary-50);
   border-color: var(--color-primary-600);
 }
 
 .btn-ghost {
   background: transparent;
-  color: var(--color-primary);
+  color: var(--color-bg);
   border-color: transparent;
 }
-.btn-ghost:hover { background: rgba(5, 74, 78, 0.06); }
+.btn-ghost:hover {
+  background-color: var(--color-accent-50);
+  color: var(--color-accent-900);
+}
 
 .btn-sm {
   height: 36px;
